@@ -105,7 +105,7 @@ $ ./stop_server.sh
 
 ## Troubleshooting
 Duration: 10
-### Error message: `protocol https not supported or disabled in libcurl`
+#### Error message: `protocol https not supported or disabled in libcurl`
 
 Follow the steps below to solve this problem:
 
@@ -120,7 +120,7 @@ Follow the steps below to solve this problem:
 
    If the `--system-curl` command doesn't work, you can also reinstall CMake in **Ubuntu Software** on your local computer.
 
-### Error message: `internal compiler error`
+#### Error message: `internal compiler error`
 
 Try increasing the memory allocated to Docker. If this doesn't work, you can reduce the number of threads in CMake build in `[Milvus root path]/core/build.sh`.
 
@@ -130,14 +130,14 @@ make -j 8 install || exit 1 # The default number of threads is 8.
 
 Note: You might also need to configure CMake build for faiss in `[Milvus root path]/core/src/index/thirdparty/faiss`.
 
-### Error message: `error while loading shared libraries: libmysqlpp.so.3`
+#### Error message: `error while loading shared libraries: libmysqlpp.so.3`
 
 Follow the steps below to solve this problem:
 
 1.  Check whether `libmysqlpp.so.3` is correctly installed.
 2.  If `libmysqlpp.so.3` is installed, check whether it is added to `LD_LIBRARY_PATH`.
 
-### CMake version is not supported
+#### CMake version is not supported
 
 Follow the steps below to install a supported version of CMake:
 
