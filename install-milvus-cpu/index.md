@@ -57,7 +57,8 @@ Go to [dockerhub](https://hub.docker.com/r/milvusdb/milvus/tags), ensure which v
 <img src="pic/pic.png" alt="dockerhub-milvus" />
 
 ## Pull Milvus Image
-Run:
+Paste the command in your console window
+
 ```shell
 $ docker pull milvusdb/milvus:0.10.0-cpu-d061620-5f3c00
 ```
