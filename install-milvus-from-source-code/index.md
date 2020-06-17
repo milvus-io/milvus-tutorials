@@ -26,13 +26,13 @@ For GPU-enabled version, you will also need:
 -   [NVIDIA driver 418 or higher](https://www.nvidia.com/Download/index.aspx)
 
 ## Download milvus source from GitHub
-Duration: 10
+Duration: 3
 ```shell
 git clone https://github.com/milvus-io/milvus
 ```
 
 ## Install dependencies
-Duration: 10
+Duration: 3
 
 ### Install in Ubuntu
 
@@ -77,7 +77,7 @@ $./build.sh -h
 When the build is completed, everything that you need in order to run Milvus will be installed under `[Milvus root path]/core/milvus`.
 
 ## Launch Milvus server
-Duration: 5
+Duration: 3
 
 ```shell
 $ cd [Milvus root path]/core/milvus
