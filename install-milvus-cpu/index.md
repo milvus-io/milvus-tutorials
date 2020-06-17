@@ -10,23 +10,25 @@ Feedback Link: https://github.com/milvus-io/milvus
 
 ## Prerequisites
 Duration: 1
+
 ### Operating system requirements
 
-| Operating system | Supported versions                              |
-| :--------------- | :----------------------------------------------------------- |
-| CentOS           | 7.5 or higher                                                |
-| Ubuntu LTS       | 18.04 or higher                                              |
+| Operating system | Supported versions                                                      |
+| :--------------- | :---------------------------------------------------------------------- |
+| CentOS           | 7.5 or higher                                                           |
+| Ubuntu LTS       | 18.04 or higher                                                         |
 | Windows          | Windows 10 64-bit: Pro, Enterprise, or Education (Build 15063 or later) |
-| macOS            |  10.13 or higher      |
+| macOS            | 10.13 or higher                                                         |
+
 
 ### Hardware requirements
 
-| Component | Recommended configuration             |
-| ---------- | ------------------------------------- |
-| CPU        | Intel CPU Sandy Bridge or higher. |
+| Component           | Recommended configuration                              |
+| ------------------- | ------------------------------------------------------ |
+| CPU                 | Intel CPU Sandy Bridge or higher.                      |
 | CPU instruction set | <li>SSE42</li><li>AVX</li><li>AVX2</li><li>AVX512</li> |
-| RAM        | 8 GB or more (depends on the data volume) |
-| Hard drive | SATA 3.0 SSD or higher                |
+| RAM                 | 8 GB or more (depends on the data volume)              |
+| Hard drive          | SATA 3.0 SSD or higher                                 |
 
 ## Install Docker
 Duration: 3
@@ -47,13 +49,14 @@ If you do not see the server listed, start the **Docker** daemon.
 
 > Note: On Linux, Docker needs sudo privileges. To run Docker command without `sudo`, create the `docker` group and add your user. For details, see the [post-installation steps for Linux](https://docs.docker.com/install/linux/linux-postinstall/).
 
-## Pull Milvus Docker image
+## Select Milvus version from Docker hub
 Duration: 4
 
-Go to [dockerhub](https://hub.docker.com/r/milvusdb/milvus/tags), ensure which version of milvus are you going to install. Click the copy button.
+Go to [dockerhub](https://hub.docker.com/r/milvusdb/milvus/tags), ensure which version of milvus are you going to install. Click the copy button. Full docker pull command will be copied.
 
-<img src="pic/pic.png" alt="dockerhub-milvus" align=center />
+<img src="pic/pic.png" alt="dockerhub-milvus" />
 
+## Pull Milvus Image
 Run:
 ```shell
 $ docker pull milvusdb/milvus:0.10.0-cpu-d061620-5f3c00
@@ -62,7 +65,7 @@ $ docker pull milvusdb/milvus:0.10.0-cpu-d061620-5f3c00
 ## Create Milvus directories
 Duration: 1
 
-Create 4 directories for milvus, we will mounts these directories into the container later, you can place these folder anywhere, now, we put it at home directory.
+Create 4 directories for milvus, we will mount these directories into the container later, you can place these folder anywhere, now, we put it at home directory.
 - db: vectors will be stored in this directory
 - logs: any milvus running logs will be here
 - wal: wal will be stored in this directory
@@ -88,7 +91,7 @@ $ wget https://raw.githubusercontent.com/milvus-io/milvus/v0.10.0/core/conf/demo
 > Note: In case you encounter problems downloading configuration files using `wget` command, you can also create `server_config.yaml` under `/home/$USER/milvus/conf`, then copy and paste the content from [server config file](https://github.com/milvus-io/milvus/blob/v0.10.0/core/conf/demo/server_config.yaml).
 
 
-## Start Docker container
+## Start Milvus
 Duration: 1
 
 Run the docker that we just pulled. We will map the ports and mounts directories we just created.
