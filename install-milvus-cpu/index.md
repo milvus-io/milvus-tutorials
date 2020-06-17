@@ -100,7 +100,7 @@ Run the docker that we just pulled. We will map the ports and mounts directories
 - Milvus default http port is 19121
 
 ```shell
-$ docker run -d --name milvus_cpu_0.10.0 \
+$ docker run --name milvus_cpu_0.10.0 \
 -p 19530:19530 \
 -p 19121:19121 \
 -v /home/$USER/milvus/db:/var/lib/milvus/db \
@@ -110,16 +110,19 @@ $ docker run -d --name milvus_cpu_0.10.0 \
 milvusdb/milvus:0.10.0-cpu-d061620-5f3c00
 ```
 
-Finally confirm Milvus running status by the following command:
-
-```shell
-$ docker ps
-```
-
 You can see someting like this, and we are done
-```
-CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
-41787ed7a3c3 milvusdb/milvus:0.10.0-cpu-d061620-5f3c00 "/var/lib/milvus/doc…" 3 seconds ago Up 2 seconds 0.0.0.0:19120->19121/tcp, 0.0.0.0:19531->19530/tcp   
+<img src="pic/done.png" alt="dockerhub-milvus" />
+
+If you want run milvus in the background, add option '-d'
+```shell
+$ docker run -d --name milvus_cpu_0.10.0 \
+-p 19530:19530 \
+-p 19121:19121 \
+-v /home/$USER/milvus/db:/var/lib/milvus/db \
+-v /home/$USER/milvus/conf:/var/lib/milvus/conf \
+-v /home/$USER/milvus/logs:/var/lib/milvus/logs \
+-v /home/$USER/milvus/wal:/var/lib/milvus/wal \
+milvusdb/milvus:0.10.0-cpu-d061620-5f3c00
 ```
 
 ### Next
