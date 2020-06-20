@@ -11,6 +11,7 @@ Feedback Link: https://milvus.io
 ## 概述
 
 Duration: 1
+
 本文展示如何利用 Milvus 向量搜索引擎搭建一个化学式检索系统。
 
 ## 环境要求
@@ -28,6 +29,7 @@ Duration: 1
 ## 数据准备
 
 Duration: 3
+
 本次实验数据来源：[ftp://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF](ftp://ftp.ncbi.nlm.nih.gov/pubchem/Compound/CURRENT-Full/SDF)，该数据集是压缩的 SDF 文件，需要使用工具将其转换为 SMILES 文件，我们准备了转换后的一万条 SMILES 化学式文件 [test_1w.smi](https://raw.githubusercontent.com/milvus-io/bootcamp/0.10.0/solutions/mols_search/smiles-data/test_1w.smi)，下载该文件到本地：
 
 ```bash
@@ -38,6 +40,7 @@ $ wget https://raw.githubusercontent.com/milvus-io/bootcamp/0.10.0/solutions/mol
 
 ## 部署流程
 Duration: 10
+
 #### 1. 启动 Milvus v0.10.0
 
 本次实验使用 Milvus 0.10.0CPU 版，安装启动方法参考https://milvus.io/cn/docs/v0.10.0/guides/get_started/install_milvus/cpu_milvus_docker.md 。

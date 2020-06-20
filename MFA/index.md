@@ -11,6 +11,7 @@ Feedback Link: https://milvus.io
 ## 概述
 
 Duration: 1
+
 本文介绍的生物多因子认证系统利用 [InsightFace](https://github.com/deepinsight/insightface) 提取人脸特征，[Deep Speaker](https://github.com/philipperemy/deep-speaker) 提取声纹特征，然后在 [Milvus](https://milvus.io/) 中做混合认证。
 
 ## 前提环境
@@ -23,6 +24,7 @@ Duration: 1
 ## 系统搭建
 
 Duration: 8
+
 在搭建生物多因子认证系统前，请先**[启动 Milvus 服务 (v0.10.0)](https://milvus.io/cn/docs/v0.10.0/guides/get_started/install_milvus/cpu_milvus_docker.md)**，下面将介绍使用 Docker 部署系统和构建镜像部署两种方法：
 
 ### 用 Docker 部署
@@ -63,9 +65,10 @@ $ docker run -td -p 5003:5000 -e API_URL=https://192.168.1.85:5003 -e "MILVUS_HO
 
 ## 系统使用
 Duration: 5
+
 在手机端或者客户端的浏览器（建议谷歌浏览器）中输入`https://192.168.1.85:5003`(启动 MFA-demo 指定的 API_URL)，就可以开始进行生物多因子认证了。
 
-- #### 系统录入
+- 系统录入
 
   首先点击 `New User` ，将在系统中录入信息。
 
@@ -79,7 +82,7 @@ Duration: 5
 
 ![](./pic/record_success.png)
 
-- #### 系统认证
+- 系统认证
 
   点击 `Click To Iddentify` 将进行验证，同样在系统中录制 5s 左右的视频。
 
