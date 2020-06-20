@@ -24,8 +24,12 @@ Duration: 1
 ## 系统搭建
 
 Duration: 8
+<<<<<<< HEAD
 
 在搭建生物多因子认证系统前，请先**[启动 Milvus 服务 (v0.10.0)](https://milvus.io/cn/docs/v0.10.0/guides/get_started/install_milvus/cpu_milvus_docker.md)**，下面将介绍使用 Docker 部署系统和构建镜像部署两种方法：
+=======
+在搭建生物多因子认证系统前，请先[启动 Milvus 服务 (v0.10.0)](https://milvus.io/cn/docs/v0.10.0/guides/get_started/install_milvus/cpu_milvus_docker.md)，下面将介绍使用 Docker 部署系统和构建镜像部署两种方法：
+>>>>>>> af360804941f248ffd1f33c7730a7eed49f80ba5
 
 ### 用 Docker 部署
 
