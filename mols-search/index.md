@@ -80,23 +80,23 @@ Duration: 5
 
 - 初始界面
 
-![](/Users/shiyu/workspace/github/bootcamp/10/bootcamp/solutions/mols_search/assert/init_status.PNG)
+![](./pic/init_status.PNG)
 
 - 加载化学式数据
   1. 在 path/to/your/data 中输入 smi 文件位置：/tmp/data/test_1w.smi
   2. 点击 `+` 加载按钮
   3. 可以观察到化学式数量的变化：10000 Molecular Formula in this set
 
-![](/Users/shiyu/workspace/github/bootcamp/10/bootcamp/solutions/mols_search/assert/load_data.PNG)
+![](./pic/load_data.PNG)
 
 - 化学式检索
   1. 输入待检索的**化学式**并按**回车**，如：Cc1ccc(cc1)S(=O)(=O)N
   2. 选择 TopK 值，将在右侧返回相似度最高的前 TopK 个化学式
 
-![](/Users/shiyu/workspace/github/bootcamp/10/bootcamp/solutions/mols_search/assert/search_data.PNG)
+![](./pic/search_data.PNG)
 
 - 清除化学式数据
 
   点击`CLEAR ALL`按钮，将清除所有化学式数据
 
-![](/Users/shiyu/workspace/github/bootcamp/10/bootcamp/solutions/mols_search/assert/delete_data.PNG)
+![](./pic/delete_data.PNG)
