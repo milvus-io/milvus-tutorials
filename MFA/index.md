@@ -23,7 +23,7 @@ Duration: 1
 ## 系统搭建
 
 Duration: 8
-在搭建生物多因子认证系统前，请先**[启动 Milvus 服务 (v0.10.0)](https://milvus.io/cn/docs/v0.10.0/guides/get_started/install_milvus/cpu_milvus_docker.md)**，下面将介绍使用 Docker 部署系统和构建镜像部署两种方法：
+在搭建生物多因子认证系统前，请先[启动 Milvus 服务 (v0.10.0)](https://milvus.io/cn/docs/v0.10.0/guides/get_started/install_milvus/cpu_milvus_docker.md)，下面将介绍使用 Docker 部署系统和构建镜像部署两种方法：
 
 ### 用 Docker 部署
 
@@ -69,23 +69,23 @@ Duration: 5
 
   首先点击 `New User` ，将在系统中录入信息。
 
-![](/Users/shiyu/workspace/github/bootcamp/10/bootcamp/solutions/MFA/pic/new_user.png)
+![](./pic/new_user.png)
 
 ​		然后在框里面填下个人昵称,，比如 `Milvus`，然后点击 `Click to Record` 将会录视频，如果浏览器弹出需要**访问摄像头和话筒**，请选择同意，接下来就在系统中录制 5 秒左右的视频。
 
-![](/Users/shiyu/workspace/github/bootcamp/10/bootcamp/solutions/MFA/pic/record.png)
+![](./pic/record.png)
 
 ​		系统录入成功后将会出现以下界面：
 
-![](/Users/shiyu/workspace/github/bootcamp/10/bootcamp/solutions/MFA/pic/record_success.png)
+![](./pic/record_success.png)
 
 - #### 系统认证
 
   点击 `Click To Iddentify` 将进行验证，同样在系统中录制 5s 左右的视频。
 
-![](/Users/shiyu/workspace/github/bootcamp/10/bootcamp/solutions/MFA/pic/indentify.png)
+![](./pic/indentify.png)
 
 ​		系统认证成功将会出现以下界面，图片将会显示验证人的人脸，这里替换了 Milvus logo：
 
-![](/Users/shiyu/workspace/github/bootcamp/10/bootcamp/solutions/MFA/pic/indentify_success.png)
+![](./pic/indentify_success.png)
 
