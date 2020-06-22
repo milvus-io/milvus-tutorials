@@ -1,6 +1,6 @@
 summary: 生物多因子认证系统
 id: how-to-build-a-biological-multi-factor-authentication-system
-categories: milvus
+categories: milvus-cn
 tags: demo
 status: Published
 authors: Brother Long
