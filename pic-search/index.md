@@ -1,6 +1,6 @@
 summary: 基于 Milvus 和 VGG 实现以图搜图
-id: how-to-do-reverse-image-search
-categories: milvus
+id: how-to-do-reverse-image-search-with-milvus
+categories: milvus-cn
 tags: demo
 status: Published
 authors: Brother Long
