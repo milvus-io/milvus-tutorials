@@ -1,5 +1,5 @@
 summary: Reverse Image Search Based on Milvus and VGG
-id: how-to-do-reverse-image-search-with-milvus
+id: en-how-to-do-reverse-image-search-with-milvus
 categories: milvus
 tags: demo
 status: Published
