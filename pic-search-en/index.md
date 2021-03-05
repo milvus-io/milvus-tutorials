@@ -13,7 +13,7 @@ This demo uses VGG, an image feature extraction model, and Milvus to build a sys
 
 The system architecture is displayed as follows:
 
-<img src="pic/demo.jpg" width = "450" height = "600" alt="系统架构图" align=left />
+<img src="pic/demo.jpg" width = "450" height = "600" alt="系统架构图" align=center />
 
 
 
@@ -81,21 +81,21 @@ Duration: 5
 
 After deployment, enter ${WEBCLIENT_IP}:8001 in the browser to open the interface for reverse image search. WEBCLIENT_IP specifies the server IP address that runs pic-search-webclient docker.
 
-<img src="pic/web4.png" width = "650" height = "500" alt="系统架构图" align=left />
+<img src="pic/web4.png" width = "650" height = "500" alt="系统架构图" align=center />
 
 Enter the path of an image folder in the pic_search_webserver docker container, such as /tmp/pic1. Click Load to load the pictures. The following screenshot shows the loading process:
 
-<img src="pic/web2.png" width = "650" height = "500" alt="系统架构图" align=left />
+<img src="pic/web2.png" width = "650" height = "500" alt="系统架构图" align=center />
 
 > Note: After clicking the Load button, it will take 1 to 2 seconds for the system to response. Please do not click again.
 
 The loading process may take several minutes. The following screenshot shows the interface with images loaded.
 
-<img src="pic/web3.png" width = "650" height = "500" alt="系统架构图" align=left />
+<img src="pic/web3.png" width = "650" height = "500" alt="系统架构图" align=center />
 
 Select an image to search.
 
-<img src="pic/web5.png" width = "650" height = "500" alt="系统架构图" align=left />
+<img src="pic/web5.png" width = "650" height = "500" alt="系统架构图" align=center />
 
 It has been tested tha the system can complete reverse image search within 1 second using the recommended configuration. To load images in other directories of the pic_search_webserver docker, specify the path in the textbox.
 
