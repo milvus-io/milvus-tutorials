@@ -1,6 +1,6 @@
 summary: Milvus 化学式检索
 id: how-to-do-reverse-molecular-search-with-milvus
-categories: milvus
+categories: milvus-cn
 tags: demo
 status: Published
 authors: Brother Long

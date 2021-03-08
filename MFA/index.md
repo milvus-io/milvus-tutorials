@@ -1,6 +1,6 @@
 summary: 生物多因子认证系统
 id: how-to-build-a-biological-multi-factor-authentication-system
-categories: milvus
+categories: milvus-cn
 tags: demo
 status: Published
 authors: Brother Long
@@ -27,8 +27,6 @@ Duration: 8
 
 在搭建生物多因子认证系统前，请先[启动 Milvus 服务 (v0.10.0)](https://milvus.io/cn/docs/v0.10.0/guides/get_started/install_milvus/cpu_milvus_docker.md)，下面将介绍使用 Docker 部署系统和构建镜像部署两种方法：
 ### 用 Docker 部署
-
-- #### 启动 MFA-demo
 
 ```bash
 $ docker run -td -p 5003:5000 -e API_URL=https://192.168.1.85:5003 -e "MILVUS_HOST=192.168.1.85" -e "MILVUS_PORT=19530" -e "PG_HOST=192.168.1.85" -e "PG_PORT=5432" milvusbootcamp/mfa-demo:0.2.0

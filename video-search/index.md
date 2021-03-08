@@ -1,6 +1,6 @@
 summary: 基于 Milvus 搭建以图搜视频系统
 id: how-to-do-video-search-with-milvus
-categories: milvus
+categories: milvus-cn
 tags: demo
 status: Published
 authors: Brother Long
