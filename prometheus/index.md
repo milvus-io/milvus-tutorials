@@ -16,7 +16,7 @@ Duration: 1
 
 Milvus collects monitoring data and pushes it to Pushgateway.Milvus collects monitoring data and pushes it to Pushgateway.Meanwhile, Prometheus Server will pull data from Pushgateway and save it to its timing database (TSDB) on a regular basis. Prometheus Server will push the alarm information to Alertmanager when an alarm is generated. Grafana can be used to visualize the collected data.
 
-![1](.pic/001.png)
+![1](./pic/001.png)
 
 ## Preparation
 
@@ -127,7 +127,7 @@ Start the Prometheus:
 
 Login through the browser http://<The host providing the prometheus service>:9090，Go to the prometheus user interaction page.
 
-![](.pic/002.png)
+![](./pic/002.png)
 
 ##### Configuration Alertmanager
 
@@ -174,7 +174,7 @@ docker run -i -p 3000:3000 grafana/grafana
 
 Open it in a browser http://<Host IP that provides Grafana services>:3000Url, and login to the Grafana User Interaction page.
 
-![Grafana](.pic/004.png)
+![Grafana](./pic/004.png)
 
 <!--The default user name and password for Grafana is ADMIN.You can also create new Grafana accounts here.-->
 
@@ -182,7 +182,7 @@ Open it in a browser http://<Host IP that provides Grafana services>:3000Url, an
 
 From the Grafana User Interaction page, click **Configuration>Data Sources>Prometheus**, and set the following Data source properties:
 
-![数据源配置](.pic/005.png)
+![数据源配置](./pic/005.png)
 
 |  Field  | Definition                                                   |
 | :-----: | ------------------------------------------------------------ |
@@ -195,13 +195,13 @@ From the Grafana User Interaction page, click **Configuration>Data Sources>Prome
 
 - Import the configuration file into Grafana
 
-  ![img](.pic/008.png)
+  ![img](./pic/008.png)
 
 - Configure the monitoring metrics provided by Milvus through the **Grafana profile** provided by Milvus,The [Milvus monitoring metrics](https://www.milvus.io/cn/docs/v0.10.3/milvus_metrics.md) are shown below.
 
-  ![](.pic/006.png)
+  ![](./pic/006.png)
   
-  ![](.pic/007.png)
+  ![](./pic/007.png)
   
   **Milvus performance indicators**
 
