@@ -213,7 +213,7 @@ From the Grafana User Interaction page, click **Configuration>Data Sources>Prome
 | Query Service Level   | Query service level = number of queries within a certain time threshold/total number of queries |
 | Uptime                | How long the Milvus server is up (minutes)                   |
 
-      **System performance index**
+**System performance index**
 
 | Indicators        | Instructions                                                 |
 | ----------------- | ------------------------------------------------------------ |
@@ -226,7 +226,7 @@ From the Grafana User Interaction page, click **Configuration>Data Sources>Prome
 | Disk Read Speed   | Disk read speed (GB/s)                                       |
 | Disk Write Speed  | Disk write speed (GB/s).                                     |
 
-     **Hardware storage metrics**
+**Hardware storage metrics**
 
 | **Indicators** | **Instructions**                                |
 | -------------- | ----------------------------------------------- |
