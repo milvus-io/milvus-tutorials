@@ -26,7 +26,7 @@ Link: https://pan.baidu.com/s/1GpPqRTjiBen0qoudAWZn6g Extraction code: bptf
 
 ## Script Description
 
-Duration: 3min
+Duration: 3
 
 This project contains two parts, service and webclient.
 
@@ -57,7 +57,7 @@ The configuration file config.py in service explains:
 
 ## Steps to build a project
 
-Duration: 5min(Exclude time of importing recipe data)
+Duration: 5
 
 1. Install [Milvus0.10.4](https://milvus.io/cn/docs/v0.10.4/milvus_docker-cpu.md).
 2. Install MySql.

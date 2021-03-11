@@ -22,7 +22,7 @@ This example does not include how to build a Kubernetes cluster or how to instal
 
 ## Build shared storage
 
-Duration: 10min
+Duration: 10
 
 Shared storage is needed when we want a storage volume in a Kubernetes cluster to be simultaneously mounted by multiple pods and multiple pods modify the same data at the same time. Common protocols for sharing resources include NFS and CIFS. In the following, we will demonstrate how to build NFS storage resources and deploy NFS Server in Kubernetes.
 
@@ -137,7 +137,7 @@ Shared storage is needed when we want a storage volume in a Kubernetes cluster t
 
 ## Deploy Milvus with Helm
 
-Duration: 5min
+Duration: 5
 
 1. Pull source code
 
@@ -182,7 +182,7 @@ Duration: 5min
 
 ## Test Cluster
 
-Duration: 5min
+Duration: 5
 
 At this point, the Milvus service has been successfully deployed on Kubernetes. However, the default service for Kubernetes is ClusterIP, which can be accessed by other applications within the cluster, but not outside the cluster. So, if we want to use the cluster on the Internet or in a production environment, we need to change the service to expose the application.The two types of Kubernetes services that can expose the service are NodePort and LoadBalancer. In the following, we will explain how to access the cluster externally using the NodePort service.
 
@@ -240,7 +240,7 @@ At this point, the Milvus service has been successfully deployed on Kubernetes. 
 
 ## Deploy Milvus with kubectl
 
-Duration: 5min
+Duration: 5
 
 The essence of deploying an application using kubectl is to deploy the content defined in the YAML file. Therefore, we need to install the schelm plugin using the go language. The schelm plug-in retrieves the manifest files, which are resource descriptions in YAML format that Kubernetes can recognize.
 
