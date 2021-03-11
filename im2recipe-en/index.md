@@ -14,6 +14,8 @@ This project is based on the project [im2recipe-Pytorch](https://github.com/torr
 
 ## Data Introduction
 
+Duration: 2
+
 **Data introduction**
 
 The data for this project comes from [recipe1M](http://pic2recipe.csail.mit.edu/). Recipe1M+ is a new large-scale, structured corpus of over one million cooking recipes and 13 million food images.
