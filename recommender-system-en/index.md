@@ -77,28 +77,28 @@ Follow the steps below to build a recommender system:
 
    The following table describes arguments of `infer_milvus.py`.
 
-   | Parameter       | Description                                                  |
-   | --------------- | ------------------------------------------------------------ |
-   | `-a`/`--age`    | Age distribution 0: "Under 18" 1: "18-24" 2: "25-34" 3: "35-44" 4: "45-49" 5: "50-55" 6: "56+" |
-   | `-g`/`--gender` | Gender 0:male 1:female                                       |
-   | `-j`/`--job`    | Job 0: "other" or not specified <br />1: "academic/educator" <br />2: "artist" <br />3: "clerical/admin" <br />4: "college/grad student" <br />5: "customer service" <br />6: "doctor/health care" <br />7: "executive/managerial" <br />8: "farmer" <br />9: "homemaker" <br />10: "K-12 student" <br />11: "lawyer"<br />12: "programmer" <br />13: "retired" <br />14: "sales/marketing" <br />15: "scientist" <br />16: "self-employed" <br />17: "technician/engineer" <br />18: "tradesman/craftsman" <br />19: "unemployed" <br />20: "writer" |
-   | `-i`/`--infer`  | (Optional) Converts test data to vectors and import to Milvus. |
+| Parameter       | Description                                                  |
+| --------------- | ------------------------------------------------------------ |
+| `-a`/`--age`    | Age distribution 0: "Under 18" 1: "18-24" 2: "25-34" 3: "35-44" 4: "45-49" 5: "50-55" 6: "56+" |
+| `-g`/`--gender` | Gender 0:male 1:female                                       |
+| `-j`/`--job`    | Job 0: "other" or not specified <br />1: "academic/educator" <br />2: "artist" <br />3: "clerical/admin" <br />4: "college/grad student" <br />5: "customer service" <br />6: "doctor/health care" <br />7: "executive/managerial" <br />8: "farmer" <br />9: "homemaker" <br />10: "K-12 student" <br />11: "lawyer"<br />12: "programmer" <br />13: "retired" <br />14: "sales/marketing" <br />15: "scientist" <br />16: "self-employed" <br />17: "technician/engineer" <br />18: "tradesman/craftsman" <br />19: "unemployed" <br />20: "writer" |
+| `-i`/`--infer`  | (Optional) Converts test data to vectors and import to Milvus. |
 
-   > Note: `-i`/`--infer` is required when you use Milvus for personalized recommendation for the first time or when you start another training and regenerate the model.
+> Note: `-i`/`--infer` is required when you use Milvus for personalized recommendation for the first time or when you start another training and regenerate the model.
 
-   The result displays top 5 movies that the specified user might be interested in:
+The result displays top 5 movies that the specified user might be interested in:
 
-   ```
-   get infer vectors finished!
-   Server connected.
-   Status(code=0, message='Create table successfully!')
-   rows in table recommender_demo: 3883
-   Top      Ids     Title   Score
-   0        3030    Yojimbo         2.9444923996925354
-   1        3871    Shane           2.8583481907844543
-   2        3467    Hud     2.849525213241577
-   3        1809    Hana-bi         2.826111316680908
-   4        3184    Montana         2.8119677305221558
-   ```
+```
+get infer vectors finished!
+Server connected.
+Status(code=0, message='Create table successfully!')
+rows in table recommender_demo: 3883
+Top      Ids     Title   Score
+0        3030    Yojimbo         2.9444923996925354
+1        3871    Shane           2.8583481907844543
+2        3467    Hud     2.849525213241577
+3        1809    Hana-bi         2.826111316680908
+4        3184    Montana         2.8119677305221558
+```
 
-   > Run `python3 infer_paddle.py`. You can see that Paddle and Milvus generate the same result.
+> Run `python3 infer_paddle.py`. You can see that Paddle and Milvus generate the same result.

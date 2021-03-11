@@ -38,18 +38,18 @@ Duration: 10
 
    Before running the script, please modify the parameters in **webserver/audio/common/config.py**:
 
-   | Parameter    | Description               | Default setting |
-   | ------------ | ------------------------- | --------------- |
-   | MILVUS_HOST  | milvus service ip address | 127.0.0.1       |
-   | MILVUS_PORT  | milvus service port       | 19530           |
-   | MYSQL_HOST   | mysql service ip          | 127.0.0.1       |
-   | MYSQL_PORT   | mysql service port        | 3306            |
-   | MYSQL_USER   | mysql user name           | root            |
-   | MYSQL_PWD    | mysql password            | 123456          |
-   | MYSQL_DB     | mysql datebase name       | mysql           |
-   | MILVUS_TABLE | default table name        | milvus_audio    |
+| Parameter    | Description               | Default setting |
+| ------------ | ------------------------- | --------------- |
+| MILVUS_HOST  | milvus service ip address | 127.0.0.1       |
+| MILVUS_PORT  | milvus service port       | 19530           |
+| MYSQL_HOST   | mysql service ip          | 127.0.0.1       |
+| MYSQL_PORT   | mysql service port        | 3306            |
+| MYSQL_USER   | mysql user name           | root            |
+| MYSQL_PWD    | mysql password            | 123456          |
+| MYSQL_DB     | mysql datebase name       | mysql           |
+| MILVUS_TABLE | default table name        | milvus_audio    |
 
-3. **Star server**
+1. **Star server**
 
    ```
    $ cd webserver
