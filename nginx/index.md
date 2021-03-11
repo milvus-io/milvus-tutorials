@@ -24,7 +24,7 @@ This example requires at least two devices and a **shared storage device**, base
 
 Duration: 10
 
-### 一、Nginx Install
+### Nginx Install
 
 1.First, download the software package from the [Nginx website](http://nginx.org/en/download.html) and decompress it.
 
@@ -86,7 +86,7 @@ You can also input *<localhost(local IP address):port(default port is 80)>* in y
 
 ![](pic/1.png)
 
-## 二、Milvus Configuration
+## Milvus Configuration
 
 Duration: 10
 
@@ -102,7 +102,7 @@ The parameter `enable` indicates whether to set it to distributed mode, the para
 
 Note: **Milvus needs to be restarted after modifying the configuration file**
 
-## 三、Nginx Configuration
+## Nginx Configuration
 
 Duration: 10
 
