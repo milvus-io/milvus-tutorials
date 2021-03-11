@@ -3,7 +3,7 @@ id: how-to-do-reverse-molecular-search-with-milvus
 categories: milvus-cn
 tags: demo
 status: Published
-authors: Brother Long
+authors: Shiyu Chen
 Feedback Link: https://milvus.io
 
 # Milvus 化学式检索
