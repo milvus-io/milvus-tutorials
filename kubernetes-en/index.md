@@ -1,7 +1,7 @@
 summary: Deploy Milvus cluster with Kubernetes
 id: en-how-to-deploy-milvus-cluster-with-kubernetes
 categories: milvus
-tags: Installation guideline
+tags: demo
 status: Published
 authors: Mia Li
 Feedback Link: https://milvus.io
