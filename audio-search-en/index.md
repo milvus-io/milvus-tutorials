@@ -30,7 +30,7 @@ Duration: 10
 
    ```
    $ git clone https://github.com/zilliz-bootcamp/audio_search.git
-   $ cd bootcamp/solutions/audio_search/webserver/
+   $ cd audio_search/webserver/
    $ pip install -r audio_requirements.txt
    ```
 

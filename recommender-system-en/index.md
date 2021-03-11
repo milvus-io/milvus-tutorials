@@ -14,7 +14,7 @@ Duration: 1
 
 This tutorial will show you how to build a personalized recommender system based on Milvus
 
-## 环境要求Prerequisites
+## Prerequisites
 
 Duration: 2
 
@@ -46,6 +46,8 @@ Follow the steps below to build a recommender system:
 
    ```
    # run train.py
+   $ git clone -b 0.10.0 https://github.com/milvus-io/bootcamp.git
+   $ cd bootcamp/solutions/recommender_system/
    $ python3 train.py
    ```
 
@@ -79,7 +81,7 @@ Follow the steps below to build a recommender system:
    | --------------- | ------------------------------------------------------------ |
    | `-a`/`--age`    | Age distribution 0: "Under 18" 1: "18-24" 2: "25-34" 3: "35-44" 4: "45-49" 5: "50-55" 6: "56+" |
    | `-g`/`--gender` | Gender 0:male 1:female                                       |
-   | `-j`/`--job`    | Job 0: "other" or not specified 1: "academic/educator" 2: "artist" 3: "clerical/admin" 4: "college/grad student" 5: "customer service" 6: "doctor/health care" 7: "executive/managerial" 8: "farmer" 9: "homemaker" 10: "K-12 student" 11: "lawyer" 12: "programmer" 13: "retired" 14: "sales/marketing" 15: "scientist" 16: "self-employed" 17: "technician/engineer" 18: "tradesman/craftsman" 19: "unemployed" 20: "writer" |
+   | `-j`/`--job`    | Job 0: "other" or not specified <br />1: "academic/educator" <br />2: "artist" <br />3: "clerical/admin" <br />4: "college/grad student" <br />5: "customer service" <br />6: "doctor/health care" <br />7: "executive/managerial" <br />8: "farmer" <br />9: "homemaker" <br />10: "K-12 student" <br />11: "lawyer"<br />12: "programmer" <br />13: "retired" <br />14: "sales/marketing" <br />15: "scientist" <br />16: "self-employed" <br />17: "technician/engineer" <br />18: "tradesman/craftsman" <br />19: "unemployed" <br />20: "writer" |
    | `-i`/`--infer`  | (Optional) Converts test data to vectors and import to Milvus. |
 
    > Note: `-i`/`--infer` is required when you use Milvus for personalized recommendation for the first time or when you start another training and regenerate the model.
