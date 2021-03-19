@@ -14,6 +14,8 @@ Duration: 1
 
 本文展示如何利用 Milvus 和 BERT 提供的模型实现一个智能问答系统。旨在提供一个用 Milvus 结合各种 AI 模型实现语义相似度匹配的解决方案。
 
+项目源码参考：https://github.com/milvus-io/bootcamp/tree/1.0/solutions/QA_System
+
 ## 环境
 
 Duration: 2

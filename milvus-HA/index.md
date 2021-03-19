@@ -16,6 +16,8 @@ Duration: 1
 
 本项目用于展示如何实现一个 Milvus 的高可用方案。
 
+本项目源码参考：https://github.com/milvus-io/bootcamp/tree/1.0/solutions/Milvus_HA
+
 ## 环境准备
 
 Duration: 3

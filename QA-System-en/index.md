@@ -14,6 +14,8 @@ Duration: 1
 
 This project combines the model provided by Milvus and Bert to realize a Chinese question and answer system.This paper aims to provide a solution to achieve semantic similarity matching with Milvus combined with various AI models.
 
+Project source code reference: https://github.com/milvus-io/bootcamp/tree/1.0/EN_solutions/QA_System
+
 ## Environment
 
 Duration: 2

@@ -14,6 +14,8 @@ Duration: 1
 
 This project will show how to implement a Milvus high-availability solution.
 
+Project source code reference: https://github.com/milvus-io/bootcamp/tree/1.0/EN_solutions/Milvus_HA
+
 ## Environment settings
 
 Duration: 3
