@@ -60,7 +60,7 @@ Go to [dockerhub](https://hub.docker.com/r/milvusdb/milvus/tags), ensure which v
 Paste the command in your console window
 
 ```shell
-$ docker pull milvusdb/milvus:0.10.0-cpu-d061620-5f3c00
+$ docker pull milvusdb/milvus:1.0.0-cpu-d030521-1ea92e
 ```
 
 ## Create Milvus directories
@@ -86,10 +86,10 @@ Download the standard milvus configuration file, place it in the conf directory 
 
 ```shell
 $ cd /home/$USER/milvus/conf
-$ wget https://raw.githubusercontent.com/milvus-io/milvus/v0.10.0/core/conf/demo/server_config.yaml
+$ wget https://raw.githubusercontent.com/milvus-io/milvus/v1.0.0/core/conf/demo/server_config.yaml
 ```
 
-> Note: In case you encounter problems downloading configuration files using `wget` command, you can also create `server_config.yaml` under `/home/$USER/milvus/conf`, then copy and paste the content from [server config file](https://github.com/milvus-io/milvus/blob/v0.10.0/core/conf/demo/server_config.yaml).
+> Note: In case you encounter problems downloading configuration files using `wget` command, you can also create `server_config.yaml` under `/home/$USER/milvus/conf`, then copy and paste the content from [server config file](https://github.com/milvus-io/milvus/blob/v1.0.0/core/conf/demo/server_config.yaml).
 
 
 ## Start Milvus
@@ -100,14 +100,14 @@ Run the docker that we just pulled. We will map the ports and mounts directories
 - Milvus default http port is 19121
 
 ```shell
-$ docker run --name milvus_cpu_0.10.0 \
+$ docker run --name milvus_cpu_1.0.0 \
 -p 19530:19530 \
 -p 19121:19121 \
 -v /home/$USER/milvus/db:/var/lib/milvus/db \
 -v /home/$USER/milvus/conf:/var/lib/milvus/conf \
 -v /home/$USER/milvus/logs:/var/lib/milvus/logs \
 -v /home/$USER/milvus/wal:/var/lib/milvus/wal \
-milvusdb/milvus:0.10.0-cpu-d061620-5f3c00
+milvusdb/milvus:1.0.0-cpu-d030521-1ea92e
 ```
 
 You can see someting like this, and we are done
@@ -115,14 +115,14 @@ You can see someting like this, and we are done
 
 If you want run milvus in the background, add option '-d'
 ```shell
-$ docker run -d --name milvus_cpu_0.10.0 \
+$ docker run -d --name milvus_cpu_1.0.0 \
 -p 19530:19530 \
 -p 19121:19121 \
 -v /home/$USER/milvus/db:/var/lib/milvus/db \
 -v /home/$USER/milvus/conf:/var/lib/milvus/conf \
 -v /home/$USER/milvus/logs:/var/lib/milvus/logs \
 -v /home/$USER/milvus/wal:/var/lib/milvus/wal \
-milvusdb/milvus:0.10.0-cpu-d061620-5f3c00
+milvusdb/milvus:1.0.0-cpu-d030521-1ea92e
 ```
 
 ### Next

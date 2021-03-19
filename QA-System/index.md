@@ -1,6 +1,6 @@
 summary: 基于 Milvus 和 BERT 实现智能问答系统
 id: how-to-do-reverse-QA-System-with-milvus
-categories: milvus
+categories: milvus-cn
 tags: demo
 status: Published
 authors: Brother Long
