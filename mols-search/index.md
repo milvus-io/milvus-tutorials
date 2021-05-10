@@ -3,7 +3,7 @@ id: how-to-do-reverse-molecular-search-with-milvus
 categories: milvus-cn
 tags: demo
 status: Published
-authors: Brother Long
+authors: Shiyu Chen
 Feedback Link: https://milvus.io
 
 # Milvus 化学式检索
@@ -22,7 +22,7 @@ Duration: 1
 | CPU      | Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz                     |
 | Memory   | 32GB                                                         |
 | OS       | Ubuntu 18.04                                                 |
-| Software | [Milvus 0.10.0](https://milvus.io/cn/docs/v0.10.0/guides/get_started/install_milvus/cpu_milvus_docker.md) <br />mols-search-webserver 0.7.0 <br />mols-search-webclient 0.3.0 |
+| Software | [Milvus 0.10.0](https://milvus.io/cn/docs/v0.10.0/cpu_milvus_docker.md) <br />mols-search-webserver 0.7.0 <br />mols-search-webclient 0.3.0 |
 
 以上配置已经通过测试，并且 Windows 系统也可以运行本次实验，以下步骤 Windows 系统通用。
 
