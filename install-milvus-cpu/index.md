@@ -126,6 +126,6 @@ milvusdb/milvus:1.0.0-cpu-d030521-1ea92e
 ```
 
 ### Next
-* You can [Try a example program](https://milvus.io/docs/guides/get_started/example_code.md)
+* You can [Try an example program](https://milvus.io/docs/v1.0.0/example_code.md)
 * Learn more [about milvus](https://milvus.io/docs/about_milvus/overview.md)
 * [Give milvus a star if you like it](https://github.com/milvus-io/milvus)

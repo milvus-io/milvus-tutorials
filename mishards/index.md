@@ -100,7 +100,7 @@ Run the following command to start Milvus:
 $ docker-compose -f cluster_ro.yml up -d
 ```
 
-> Note: You can also refer to the [installation guide](https://milvus.io/docs/v0.7.1/guides/get_started/install_milvus/gpu_milvus_docker.md) to learn how to install and run Milvus. However, you must edit `server_config.yml` per the config files for Milvus with write access or read-only access. Also, all data storage locations in the cluster must map to the same shared storage device.
+> Note: You can also refer to the [installation guide](https://milvus.io/docs/v1.0.0/milvus_docker-cpu.md) to learn how to install and run Milvus. However, you must edit `server_config.yml` per the config files for Milvus with write access or read-only access. Also, all data storage locations in the cluster must map to the same shared storage device.
 
 ### 3.Run Mishards
 
