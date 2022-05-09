@@ -14,7 +14,7 @@ Each tutorial can be a markdown file.
 ## Meta information
 Each markdown must contain meta information at the head of the document, so that the web system can recognize it as a tutorial
 ```
-summary: 基于 Milvus 和 VGG 实现以图搜图
+summary: How to use milvus and vgg to implement a reverse image search application
 id: how-to-do-reverse-image-search
 categories: milvus
 tags: demo
